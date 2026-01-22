@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian Turismo</title>
+    <script>
+        // Redirigir a index.html para manejar rutas SPA
+        sessionStorage.redirect = location.href;
+    </script>
+    <meta http-equiv="refresh" content="0;url=/adrian-turismo/index.html">
+</head>
+<body>
+    <!-- Fallback para navegadores sin JavaScript -->
+    <a href="/adrian-turismo/index.html">Ir a la página principal</a>
+</body>
+</html>
